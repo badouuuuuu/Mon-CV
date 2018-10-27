@@ -1,11 +1,16 @@
 /**************** All page ****************/
 
 body {
-    background-color: #102027;
+    background: #071B23;
+    background: -webkit-radial-gradient(center, #071B23, #0B1214);
+    background: -moz-radial-gradient(center, #071B23, #0B1214);
+    background: radial-gradient(ellipse at center, #071B23, #0B1214);
+/**************** COLOR BACKGROUND BACKUP = #102027 ****************/
 }
 
-#page {
+/**************** All page ****************/
 
+#page {
     width: 780px;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
@@ -20,9 +25,6 @@ body {
     color: rgba(117, 19, 15, 0.945);
 }
 
-
-
-
 #photoright {
     float: right;
 }
@@ -30,26 +32,21 @@ body {
 .pics {
     float: right;
     width: 15%;
-    border-radius: 70px 5px;
-    border: 5px solid rgba(117, 19, 15, 0.65);
-
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      -ms-transition: all 0.2s ease;
-         transition: all 0.5s ease;
+    border-radius: 65px 5px;
+    border: 5px solid rgba(117, 19, 15, 0.35);
 }
-
 
 .pics:hover {
     float: right;
     width: 70%;
-    border-radius: 75px 12px;
-    border: 5px solid rgba(117, 18, 15, 0.76);
-
-
+    border-radius: 50px 50px;
+    border: 5px solid rgba(117, 18, 15, 0.7);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
-
 
 /**************** Structure du CV ****************/
 
@@ -66,7 +63,6 @@ h2 {
     border-bottom: 2px solid rgb(104, 13, 10);
     padding-bottom: 15px;
     text-transform: capitalize;
-
 }
 
 h2:hover {
@@ -76,12 +72,10 @@ h2:hover {
     border-bottom: 2px solid rgb(104, 13, 10);
     padding-bottom: 15px;
     text-transform: uppercase;
-
 }
 
 
 section {
-
     margin-bottom: 100px;
 }
 
@@ -159,6 +153,11 @@ section {
     padding-right: 12px;
     margin: 0 auto;
     text-align: center;
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    -ms-transition: all 0.35s ease;
+    transition: all 0.35s ease;
 }
 
 
@@ -168,7 +167,6 @@ section {
     margin: 0 auto;
     text-align: center;
 }
-
 
 footer {
     clear: both;
