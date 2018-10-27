@@ -1,11 +1,16 @@
 /**************** All page ****************/
 
 body {
-    background-color: #102027;
+    background: #071B23;
+    background: -webkit-radial-gradient(center, #071B23, #0B1214);
+    background: -moz-radial-gradient(center, #071B23, #0B1214);
+    background: radial-gradient(ellipse at center, #071B23, #0B1214);
+/**************** COLOR BACKGROUND BACKUP = #102027 ****************/
 }
 
-#page {
+/**************** All page ****************/
 
+#page {
     width: 780px;
     margin: 0 auto;
     font-family: 'Roboto', sans-serif;
@@ -27,42 +32,50 @@ body {
 .pics {
     float: right;
     width: 15%;
-    border-radius: 80px 10px;
-    border: 5px solid rgba(117, 19, 15, 0.65);
+    border-radius: 65px 5px;
+    border: 5px solid rgba(117, 19, 15, 0.35);
 }
 
-.iconsocial {
-    width: 25px;
-    padding-right: 12px;
-    margin:0 auto;
-    text-align: center;
+.pics:hover {
+    float: right;
+    width: 70%;
+    border-radius: 50px 50px;
+    border: 5px solid rgba(117, 18, 15, 0.7);
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    transition: all 0.5s ease;
 }
-
 
 /**************** Structure du CV ****************/
 
 h1 {
     font-size: 24px;
+    text-transform: capitalize;
 }
+
 
 h2 {
     text-align: center;
     font-size: 18px;
     color: rgba(117, 19, 15, 0.945);
-    border-bottom: 2px solid rgba(117, 19, 15, 0.945);
+    border-bottom: 2px solid rgb(104, 13, 10);
+    padding-bottom: 15px;
+    text-transform: capitalize;
+}
+
+h2:hover {
+    text-align: center;
+    font-size: 18px;
+    color: rgba(117, 19, 15, 0.945);
+    border-bottom: 2px solid rgb(104, 13, 10);
     padding-bottom: 15px;
     text-transform: uppercase;
 }
 
-h2:hover {
-    margin: .4em;
-
-    text-decoration: none;
-
-}
 
 section {
-    
     margin-bottom: 100px;
 }
 
@@ -114,7 +127,8 @@ section {
 #interest {
     text-align: center;
     justify-content: center;
-    position: relative; left: 50%;
+    position: relative;
+    left: 50%;
     transform: translateX(-50%);
     margin-bottom: 100px;
 
@@ -129,10 +143,33 @@ section {
 }
 
 
-footer {
 
+
+/*************** FOOTER ****************/
+
+
+.iconsocial {
+    width: 25px;
+    padding-right: 12px;
+    margin: 0 auto;
+    text-align: center;
+    -webkit-transition: all 0.35s ease;
+    -moz-transition: all 0.35s ease;
+    -o-transition: all 0.35s ease;
+    -ms-transition: all 0.35s ease;
+    transition: all 0.35s ease;
+}
+
+
+.iconsocial:hover {
+    width: 35px;
+    padding-right: 12px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+footer {
     clear: both;
     position: relative;
     text-align: center;
-
 }
