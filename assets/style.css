@@ -30,6 +30,9 @@ body {
     width: 15%;
     border-radius: 65px 5px;
     border: 5px solid rgba(117, 19, 15, 0.35);
+    -webkit-box-shadow: 20px 12px 29px 5px rgba(51,14,14,1);
+    -moz-box-shadow: 15px 12px 29px 5px rgba(51,14,14,1);
+    box-shadow: 5px 12px 39px 5px rgba(51,14,14,1);
 }
 
 .pics:hover {
@@ -80,6 +83,15 @@ h2 {
     color: rgba(117, 19, 15, 0.945);
     border-bottom: 2px solid rgb(104, 13, 10);
     padding-bottom: 15px;
+
+}
+
+section h2 {
+    -webkit-box-shadow: 5px 5px 13px 1px rgba(107,16,20,1);
+    -moz-box-shadow: 5px 8px 13px 3px rgba(107,16,20,1);
+    box-shadow: 5px 10px 15px 1px rgba(107,16,20,1);
+
+
 }
 
 h2:hover {
