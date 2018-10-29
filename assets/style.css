@@ -17,10 +17,6 @@ body {
     font-size: 12px;
 }
 
-.infoleft {
-    float: left;
-}
-
 #header {
     color: rgba(117, 19, 15, 0.945);
 }
@@ -41,19 +37,41 @@ body {
     width: 70%;
     border-radius: 50px 50px;
     border: 5px solid rgba(117, 18, 15, 0.7);
-    -webkit-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -ms-transition: all 0.5s ease;
-    transition: all 0.5s ease;
+    -webkit-transition: all 0.15s ease;
+    -moz-transition: all 0.15s ease;
+    -o-transition: all 0.15s ease;
+    -ms-transition: all 0.15s ease;
+    transition: all 0.15s ease;
 }
 
 /**************** Structure du CV ****************/
 
-h1 {
+h1 a {
+    color:rgba(117, 18, 15, 0.7);
     font-size: 24px;
     text-transform: capitalize;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:visited  {
+  color: rgba(117, 18, 15, 0.639); 
+}
+
+h1:hover {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 30px;
+    -webkit-transition-duration:150ms;
+    -webkit-transition-delay:150ms;
+    -webkit-transition-timing-function: linear;
+    transition-duration:150ms;
+    transition-delay:150ms;
+    transition-timing-function: linear;
+}
+
 
 
 h2 {
@@ -62,16 +80,20 @@ h2 {
     color: rgba(117, 19, 15, 0.945);
     border-bottom: 2px solid rgb(104, 13, 10);
     padding-bottom: 15px;
-    text-transform: capitalize;
 }
 
 h2:hover {
     text-align: center;
-    font-size: 18px;
+    font-size: 24px;
     color: rgba(117, 19, 15, 0.945);
     border-bottom: 2px solid rgb(104, 13, 10);
     padding-bottom: 15px;
-    text-transform: uppercase;
+    -webkit-transition-duration:300ms;
+    -webkit-transition-delay:300ms;
+    -webkit-transition-timing-function: linear;
+    transition-duration:300ms;
+    transition-delay:300mss;
+    transition-timing-function: linear;
 }
 
 
