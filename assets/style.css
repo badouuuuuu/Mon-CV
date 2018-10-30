@@ -5,7 +5,7 @@ body {
     background: -webkit-radial-gradient(center, #071B23, #0B1214);
     background: -moz-radial-gradient(center, #071B23, #0B1214);
     background: radial-gradient(ellipse at center, #071B23, #0B1214);
-/**************** COLOR BACKGROUND BACKUP = #102027 ****************/
+    /**************** COLOR BACKGROUND BACKUP = #102027 ****************/
 }
 
 /**************** All page ****************/
@@ -30,9 +30,9 @@ body {
     width: 15%;
     border-radius: 65px 5px;
     border: 5px solid rgba(117, 19, 15, 0.35);
-    -webkit-box-shadow: 20px 12px 29px 5px rgba(51,14,14,1);
-    -moz-box-shadow: 15px 12px 29px 5px rgba(51,14,14,1);
-    box-shadow: 5px 12px 39px 5px rgba(51,14,14,1);
+    -webkit-box-shadow: 20px 12px 29px 5px rgba(51, 14, 14, 1);
+    -moz-box-shadow: 15px 12px 29px 5px rgba(51, 14, 14, 1);
+    box-shadow: 5px 12px 39px 5px rgba(51, 14, 14, 1);
 }
 
 .pics:hover {
@@ -50,7 +50,7 @@ body {
 /**************** Structure du CV ****************/
 
 h1 a {
-    color:rgba(117, 18, 15, 0.7);
+    color: rgba(117, 18, 15, 0.7);
     font-size: 24px;
     text-transform: capitalize;
 }
@@ -59,19 +59,19 @@ a {
     text-decoration: none;
 }
 
-a:visited  {
-  color: rgba(117, 18, 15, 0.639); 
+a:visited {
+    color: rgba(117, 18, 15, 0.639);
 }
 
 h1:hover {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 30px;
-    -webkit-transition-duration:150ms;
-    -webkit-transition-delay:150ms;
+    -webkit-transition-duration: 150ms;
+    -webkit-transition-delay: 150ms;
     -webkit-transition-timing-function: linear;
-    transition-duration:150ms;
-    transition-delay:150ms;
+    transition-duration: 150ms;
+    transition-delay: 150ms;
     transition-timing-function: linear;
 }
 
@@ -87,9 +87,9 @@ h2 {
 }
 
 section h2 {
-    -webkit-box-shadow: 5px 5px 13px 1px rgba(107,16,20,1);
-    -moz-box-shadow: 5px 8px 13px 3px rgba(107,16,20,1);
-    box-shadow: 5px 10px 15px 1px rgba(107,16,20,1);
+    -webkit-box-shadow: 5px 5px 13px 1px rgba(107, 16, 20, 1);
+    -moz-box-shadow: 5px 8px 13px 3px rgba(107, 16, 20, 1);
+    box-shadow: 5px 10px 15px 1px rgba(107, 16, 20, 1);
 
 
 }
@@ -100,11 +100,11 @@ h2:hover {
     color: rgba(117, 19, 15, 0.945);
     border-bottom: 2px solid rgb(104, 13, 10);
     padding-bottom: 15px;
-    -webkit-transition-duration:300ms;
-    -webkit-transition-delay:300ms;
+    -webkit-transition-duration: 300ms;
+    -webkit-transition-delay: 300ms;
     -webkit-transition-timing-function: linear;
-    transition-duration:300ms;
-    transition-delay:300mss;
+    transition-duration: 300ms;
+    transition-delay: 300mss;
     transition-timing-function: linear;
 }
 
@@ -175,8 +175,6 @@ section {
     width: 960px;
 
 }
-
-
 
 
 /*************** FOOTER ****************/
